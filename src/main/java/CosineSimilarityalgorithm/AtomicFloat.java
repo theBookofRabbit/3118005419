@@ -10,7 +10,7 @@ public class AtomicFloat extends Number {
     private AtomicInteger bits;
 
     public AtomicFloat() {
-        this(0f);
+        this(0f);//不是of，是0f
     }
 
     public AtomicFloat(float initialValue) {

@@ -68,6 +68,11 @@ public class Main_averageTest {
         System.out.println("++++++++++++++++单元测试：少输入参数，只输入两个参数++++++++++++++++");
         Main_average.main(new String[]{"D:\\3118005419\\src\\main\\resources\\orig.txt","D:\\3118005419\\src\\main\\resources\\orig_change.txt"});
     }
+    @Test
+    public void mainTest11() throws FileNotFoundException {
+        System.out.println("++++++++++++++++单元测试：输入不合法的参数，比如.text后缀++++++++++++++++");
+        Main_average.main(new String[]{"D:\\3118005419\\src\\main\\resources\\orig.text","D:\\3118005419\\src\\main\\resources\\orig_change.text"});
+    }
 
 
 }

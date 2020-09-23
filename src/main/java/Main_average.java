@@ -9,9 +9,9 @@ public class Main_average {
     public static String content1 = null;
     public static String content2 = null;
 
-    public static void main(String[] args) throws FileNotFoundException {
-        if(args == null || args.length < 3){
-            System.out.println("您没有输入三个参数，分别是原文文件路径、抄袭文件路径、答案文件路径");
+    public static void main(String[] args) {
+        if(args == null || args.length != 3 ){
+            System.out.println("您没有输入三个参数，分别是原文文件路径、抄袭文件路径、答案文件路径，少输入或者多输入都不被允许，请检查。");
             return;
         }
         System.out.println("原文文件："+args[0]+"\n\n抄袭版论文文件："+args[1]+"\n\n答案文件："+args[2]+"\n");

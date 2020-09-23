@@ -29,10 +29,9 @@ public class CosineSimilarity {
         if (StringUtils.isBlank(text1) || StringUtils.isBlank(text2)) {
             return 0.0;
         }
-        //这个代表如果两个字符串相等那当然返回1了（这个我为了让它也分词计算一下，所以注释掉了）
-//        if (text1.equalsIgnoreCase(text2)) {
-//            return 1.0;
-//        }
+        if (text1.equalsIgnoreCase(text2)) {
+            return 1.0;
+        }
         //第一步：进行分词
         List<Word> words1 = Tokenizer.segment(text1);
         List<Word> words2 = Tokenizer.segment(text2);
