@@ -21,7 +21,7 @@ public class CosineSimilarity {
      */
     public static double getSimilarity(String text1, String text2) {
 
-        //如果wei空，或者字符长度为0，则代表完全相同
+        //如果为空，或者字符长度为0，则代表完全相同
         if (StringUtils.isBlank(text1) && StringUtils.isBlank(text2)) {
             return 1.0;
         }

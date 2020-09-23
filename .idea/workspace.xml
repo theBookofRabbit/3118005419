@@ -19,14 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7c0bc5d-4835-463c-b0db-f3945242782c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/Tokenizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3118005419.iml" beforeDir="false" />
+    <list default="true" id="d7c0bc5d-4835-463c-b0db-f3945242782c" name="Default Changelist" comment="2020-09-23新增了基于余弦相似度和hanlp分词器的工具类和主函数（在CosineSimilarityalgorithm类中），修改pom.xml并测试了一下jar。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/CosineSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/CosineSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/CosineSimilarityalgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/CosineSimilarityalgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/Tokenizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CosineSimilarityalgorithm/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3118005419-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/3118005419-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/3118005419-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/3118005419-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/CosineSimilarityalgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/CosineSimilarityalgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/Tokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CosineSimilarityalgorithm/Tokenizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -61,36 +69,84 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.28896883" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CosineSimilarityalgorithm">
-    <configuration name="CosineSimilarityalgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CosineSimilarityalgorithm.CosineSimilarityalgorithm" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="MySimHash" />
+      <recent name="CosineSimilarityalgorithm" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\3118005419\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Main_averageTest">
+    <configuration name="Main_averageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="3118005419" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CosineSimilarityalgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main_averageTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimHash" />
+    <configuration name="Main_averageTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="3118005419" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main_averageTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_averageTest.mainTest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3118005419" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main_averageTest" />
+      <option name="METHOD_NAME" value="mainTest02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_averageTest.mainTest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3118005419" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main_averageTest" />
+      <option name="METHOD_NAME" value="mainTest03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_averageTest.mainTest04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3118005419" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main_averageTest" />
+      <option name="METHOD_NAME" value="mainTest04" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CosineSimilarityalgorithm" />
-        <item itemvalue="Application.SimHash" />
+        <item itemvalue="JUnit.Main_averageTest" />
+        <item itemvalue="JUnit.Main_averageTest.mainTest04" />
+        <item itemvalue="JUnit.Main_averageTest.mainTest03" />
+        <item itemvalue="JUnit.Main_averageTest.mainTest02" />
+        <item itemvalue="JUnit.Main_averageTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -104,8 +160,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600764765333</updated>
-      <workItem from="1600764767897" duration="21720000" />
+      <workItem from="1600764767897" duration="23479000" />
+      <workItem from="1600792656443" duration="229000" />
+      <workItem from="1600821230054" duration="14235000" />
     </task>
+    <task id="LOCAL-00001" summary="2020-09-23新增了基于余弦相似度和hanlp分词器的工具类和主函数（在CosineSimilarityalgorithm类中），修改pom.xml并测试了一下jar。">
+      <created>1600790653544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600790653544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,43 +187,100 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-09-23新增了基于余弦相似度和hanlp分词器的工具类和主函数（在CosineSimilarityalgorithm类中），修改pom.xml并测试了一下jar。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-09-23新增了基于余弦相似度和hanlp分词器的工具类和主函数（在CosineSimilarityalgorithm类中），修改pom.xml并测试了一下jar。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1600783888137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600783888137" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1600777762666">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1600825825545">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="612" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600825825545" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600777762666" />
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600777208024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600777208024" />
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom" timestamp="1600789492129">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1600792883916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600789492129" />
-    <state width="1877" height="297" key="GridCell.Tab.0.center" timestamp="1600789492129">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600792883916" />
+    <state x="824" y="358" width="272" height="297" key="Github.ShareDialog" timestamp="1600791251681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600789492129" />
-    <state width="1877" height="297" key="GridCell.Tab.0.left" timestamp="1600789492128">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="824" y="358" width="272" height="297" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600791251681" />
+    <state width="1493" height="303" key="GridCell.Tab.0.bottom" timestamp="1600846467090">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600789492128" />
-    <state width="1877" height="297" key="GridCell.Tab.0.right" timestamp="1600789492129">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="303" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600846467090" />
+    <state width="1877" height="297" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600792615336" />
+    <state width="1493" height="303" key="GridCell.Tab.0.center" timestamp="1600846467090">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600789492129" />
+    <state width="1493" height="303" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600846467090" />
+    <state width="1877" height="297" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600792615336" />
+    <state width="1493" height="303" key="GridCell.Tab.0.left" timestamp="1600846467089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600846467089" />
+    <state width="1877" height="297" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600792615336" />
+    <state width="1493" height="303" key="GridCell.Tab.0.right" timestamp="1600846467090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600846467090" />
+    <state width="1877" height="297" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600792615336" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1600776965125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600776965125" />
+    <state x="386" y="46" key="SettingsEditor" timestamp="1600825429222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="46" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600825429222" />
+    <state x="568" y="100" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600792746946" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600790661440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600790661440" />
+    <state x="588" y="117" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600832358835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="588" y="117" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1600832358835" />
+    <state x="468" y="120" width="600" height="584" key="find.popup" timestamp="1600831125484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="120" width="600" height="584" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600831125484" />
     <state x="661" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1600778297189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="276" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600778297189" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1600843991117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600843991117" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600833321620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600833321620" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/3118005419$FileUtilsTest_readFile.ic" NAME="FileUtilsTest.readFile Coverage Results" MODIFIED="1600824977644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CosineSimilarityalgorithm.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/3118005419$Main_averageTest_mainTest02.ic" NAME="Main_averageTest.mainTest02 Coverage Results" MODIFIED="1600832932410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/3118005419$Main_averageTest_main.ic" NAME="Main_averageTest.main Coverage Results" MODIFIED="1600832753975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/3118005419$Main_averageTest.ic" NAME="Main_averageTest Coverage Results" MODIFIED="1600846747091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/3118005419$TokenizerTest_segment.ic" NAME="TokenizerTest.segment Coverage Results" MODIFIED="1600824921658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CosineSimilarityalgorithm.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/3118005419$CosineSimilarityalgorithmTest_main.ic" NAME="CosineSimilarityalgorithmTest.main Coverage Results" MODIFIED="1600826293843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CosineSimilarityalgorithm.*</FILTER>
+    </SUITE>
   </component>
 </project>

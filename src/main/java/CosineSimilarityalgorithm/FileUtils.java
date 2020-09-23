@@ -8,11 +8,9 @@ import java.io.*;
 public class FileUtils {
     /**
      * 将文本文件中的内容读入到buffer中
-     * @param buffer buffer
-     * @param filePath 文件路径
-     * @throws IOException 异常
-     * @author cn.outofmemory
-     * @date 2013-1-7
+     * @param buffer
+     * @param filePath
+     * @throws IOException
      */
     public static void readToBuffer(StringBuffer buffer, String filePath) throws IOException {
         InputStream is = new FileInputStream(filePath);
@@ -29,12 +27,10 @@ public class FileUtils {
     }
 
     /**
-     * 读取文本文件内容
-     * @param filePath 文件所在路径
-     * @return 文本内容
-     * @throws IOException 异常
-     * @author cn.outofmemory
-     * @date 2013-1-7
+     * 读取文本文件内容到字符串
+     * @param filePath
+     * @return
+     * @throws IOException
      */
     public static String readFile(String filePath) throws IOException {
         StringBuffer sb = new StringBuffer();

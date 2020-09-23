@@ -7,11 +7,13 @@ import java.util.stream.Collectors;
 
 
 /**
- * 中文分词工具类*/
+ * 中文分词工具类
+ */
 public class Tokenizer {
 
     /**
-     * 分词*/
+     * 分词
+     */
     public static List<Word> segment(String sentence) {
 
         //1、 采用HanLP中文自然语言处理中标准分词进行分词
